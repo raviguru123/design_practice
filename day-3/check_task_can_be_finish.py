@@ -1,7 +1,6 @@
 # https://www.geeksforgeeks.org/find-whether-it-is-possible-to-finish-all-tasks-or-not-from-given-dependencies/
 class Graph:
 
-	
 	def __init__(self, v):
 		self.v = v;
 		self.graph = [[0 for column in range(v)] for row in range(v)]
