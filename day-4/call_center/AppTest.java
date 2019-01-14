@@ -11,7 +11,6 @@ public class AppTest {
 
 		Employee attende4 = new Employee("ravi", "kumar" ,"guru", "raviguruiitr@gmail.com", 9099, Role.TRAINEE);
 		callcenter.addEmployee(attende4);
-		
 
 		Caller caller1 = new Caller("anand", "kumar" ,"guru", "raviguruiitr@gmail.com", 989920);
 		Call call1 = new Call(caller1, callcenter);
@@ -28,13 +27,5 @@ public class AppTest {
 		Caller caller5 = new Caller("anand", "kumar" ,"guru", "raviguruiitr@gmail.com", 989920);
 		Call call5 = new Call(caller5, callcenter);
 		call1.endCall();
-
-
-
 	}
 }
-
-// TRAINEE,
-// TEAMLEAD,
-// MANAGER,
-// CALLER
