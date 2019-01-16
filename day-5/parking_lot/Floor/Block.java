@@ -3,8 +3,8 @@ import java.util.*;
 
 public class Block {
 	boolean free;
-	int row;
-	int col;
+	public int row;
+	public int col;
 
 	public Block(int row, int col){
 		this.free = true;
