@@ -2,7 +2,6 @@ package Floor;
 import java.util.HashMap;
 import java.util.*;
 import Vehicle.*;
-//HashMap<Role, Queue<Employee>> attendee;
 public class Floor {
 	public int level;
 	public HashMap<Integer, ArrayList<Block>> location;
