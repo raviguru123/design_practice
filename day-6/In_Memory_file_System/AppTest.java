@@ -8,7 +8,6 @@ public class AppTest {
 		fs.ls("/a/b/");
 		fs.ls("/a/b/e/");
 		fs.addContent("/b/c/d/ravi.txt", "hello i am ravi");
-
 		fs.addContent("/e/b/c/d/e/g/ravi.txt", "hello i am ravi form nested level");
 		String content = fs.readContentFromFile("/b/c/d/ravi.txt");
 		System.out.println("read content="+content);

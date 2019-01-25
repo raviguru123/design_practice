@@ -39,7 +39,6 @@ class Graph:
 		return True
 
 
-
 print("Enter number of node=")
 v = int(input())
 print("enter number of edge=")
